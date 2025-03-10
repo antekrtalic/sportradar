@@ -3,15 +3,20 @@
 Purpose of this application is to show World cup tournament with basic add, removal and update score of the matches with
  with properly displayed scoreboard sorted based on absolute score and last match added.
 
-To properly run test and application
+### Pre-setup:
+```
+git clone git@github.com:antekrtalic/sportradar.git
+```
+
+Go inside worldcup folder
 ```
 cd worldcup
 ```
-Build application
+### Build application
 ```
 gradle clean build
 ```
-After inside worldcup folder you can run tests with:
+### Run tests
 
 ```
 gradle test

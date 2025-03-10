@@ -7,11 +7,15 @@ To properly run test and application
 ```
 cd worldcup
 ```
+Build application
+```
+gradle clean build
+```
 After inside worldcup folder you can run tests with:
 
 ```
-gradle build test
+gradle test
 ```
 
 # NOTES
-Specific stuff, such as adding Matches, sorting Matches, update Match can be modified based on the client requirements.
+Specific stuff, such as adding matches, sorting matches, update matches can be modified based on the client requirements.
